@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "snooker",
-    "slug": "snooker",
+    "slug": "snooker-allef-douglas-dev",
     "version": "1.0.0",
     "orientation": "landscape",
     "icon": "./assets/icon.png",
@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.allef.douglas.dev.snooker"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.allef.douglas.dev.snooker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d524c06b-afff-468c-ac04-1e427ca0d219"
+      }
+    },
+    "owner": "allef.douglas.dev"
   }
 }
